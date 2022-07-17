@@ -41,7 +41,7 @@ void loop(){
   // leitura dos potenciometros 
   motor1 = map(analogRead(pot1),  0,  1023,   10,   130);
   motor2 = map(analogRead(pot2),  0,  1023,   0,    180);
-  motor3 = map(analogRead(pot3),  0,  1023,   20,   160);
+  motor3 = map(analogRead(pot3),  0,  1023,   0,   180);
   motor4 = map(analogRead(pot4),  0,  1023,   0,    180);
 
   // posicionamento dos potenciometros 
